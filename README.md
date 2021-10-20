@@ -43,9 +43,9 @@
 <!--     toc: true -->
 <!--     toc_float: true -->
 
-# A Pipeline for Pan-Myeloid Flow Cytometry Data Processing and Clustering Analysis
-
 ![Thesis Flowchart](figures/Thesis%20Flowchart.png)
+
+# A Pipeline for Pan-Myeloid Flow Cytometry Data Processing and Clustering Analysis
 
 *Presented to the Faculty of the Weill Cornell Graduate School of
 Medical Sciences Cornell Universityin Partial Fulfillment of the
