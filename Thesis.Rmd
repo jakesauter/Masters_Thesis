@@ -5,6 +5,7 @@ date: "10/20/2021"
 output: 
   md_document:
     variant: markdown_github
+    toc: true
 editor_options: 
   markdown: 
     wrap: 72

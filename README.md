@@ -1,3 +1,40 @@
+-   [Abstract](#abstract)
+-   [Biographical Sketch](#biographical-sketch)
+-   [Dedication](#dedication)
+-   [Acknowledgements](#acknowledgements)
+-   [Contributions of Author](#contributions-of-author)
+-   [List of Tables](#list-of-tables)
+-   [List of Figures](#list-of-figures)
+-   [List of Abbreviations](#list-of-abbreviations)
+-   [Introduction](#introduction)
+    -   [General Introduction](#general-introduction)
+        -   [Flow Cytometry](#flow-cytometry)
+        -   [Single-Cell Data Processing
+            Methods](#single-cell-data-processing-methods)
+    -   [Mathematical Background](#mathematical-background)
+-   [Methods](#methods)
+-   [Results](#results)
+-   [Conclusions](#conclusions)
+-   [References](#references)
+-   [Code Repository](#code-repository)
+-   [Notes on Process](#notes-on-process)
+    -   [Current Goal: Research Presentation in a
+        Month](#current-goal-research-presentation-in-a-month)
+    -   [Research Angle: Normal Bone Marrow
+        Samples](#research-angle-normal-bone-marrow-samples)
+    -   [Robustness of pipeline](#robustness-of-pipeline)
+    -   [Experimental Take-Aways](#experimental-take-aways)
+    -   [Notes From George’s
+        Presentation](#notes-from-georges-presentation)
+    -   [Lab Meeting / Research Day](#lab-meeting-research-day)
+    -   [Possible Pre-Processing
+        Improvements](#possible-pre-processing-improvements)
+    -   [Diffusion Maps](#diffusion-maps)
+    -   [Trajectory Inference /
+        Pseudotime](#trajectory-inference-pseudotime)
+    -   [Combining flow initiatives](#combining-flow-initiatives)
+    -   [SPADE.downsampleFCS()](#spade.downsamplefcs)
+
 <!-- output:  -->
 <!--   html_document:  -->
 <!--     toc: true -->
