@@ -222,11 +222,11 @@ following github repsitory: [https://github.com/jakesauter/Masters_Thesis](https
 
 ### Current Goal: Research Presentation in a Month
 
--   Research Day --- ⁃ Primary and secondary mentors are invited ⁃
-    Monday before thanksgiving ⁃ November 22nd
+* Research Day: Primary and secondary mentors are invited ⁃
+Monday before thanksgiving ⁃ November 22nd
 
--   Would like to have some nice visuals that I have analyzed and some
-    conclusions
+* Would like to have some nice visuals that I have analyzed and some
+conclusions
 
 ### Research Angle: Normal Bone Marrow Samples
 

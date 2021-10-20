@@ -220,7 +220,7 @@ following github repsitory:
 
 ### Current Goal: Research Presentation in a Month
 
--   Research Day — ⁃ Primary and secondary mentors are invited ⁃ Monday
+-   Research Day: Primary and secondary mentors are invited ⁃ Monday
     before thanksgiving ⁃ November 22nd
 
 -   Would like to have some nice visuals that I have analyzed and some
