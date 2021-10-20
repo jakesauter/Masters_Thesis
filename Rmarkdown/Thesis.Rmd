@@ -220,7 +220,9 @@ following github repsitory: [https://github.com/jakesauter/Masters_Thesis](https
 
 # Notes on Process
 
-### Current Goal: Research Presentation in a Month
+
+
+## Current Goal: Research Presentation in a Month
 
 * Research Day: Primary and secondary mentors are invited ⁃
 Monday before thanksgiving ⁃ November 22nd
@@ -228,21 +230,21 @@ Monday before thanksgiving ⁃ November 22nd
 * Would like to have some nice visuals that I have analyzed and some
 conclusions
 
-### Research Angle: Normal Bone Marrow Samples
+## Research Angle: Normal Bone Marrow Samples
 
 -   55 Normals ⁃ Could not find top level MRN folder for 1 patient ⁃
     More than one MRN folder found for 1 patient
 
-### Robustness of pipeline
+## Robustness of pipeline
 
 -   Cell ids before down-sampling?
 
-### Experimental Take-Aways
+## Experimental Take-Aways
 
 -   SPADE diffusion maps ⁃ Behavior is not patient-specific, but method
     (SPADE) specific ⁃ Does not depend on number of neighbors
 
-### Notes From George's Presentation
+## Notes From George's Presentation
 
 -   MPN Diagnostic Workup ⁃ Relies on Morphology ⁃ Less than 30% blasts
     MDS vs AML
@@ -284,13 +286,13 @@ conclusions
 
     -   Of course co-supervisor should attend
 
-### Possible Pre-Processing Improvements
+## Possible Pre-Processing Improvements
 
 -   How did previous papers find the optimal cofactor
 
     -   Controls?
 
-### Diffusion Maps
+## Diffusion Maps
 
 -   Can we see the eigenvalues of the diffusion components to see how
     important some are?
@@ -323,7 +325,7 @@ conclusions
             a2*x_2 + ... + an*x_n ... y_n = a1*x_1 + a2*x_2 + ... +
             an\*x_n
 
-### Trajectory Inference / Pseudotime
+## Trajectory Inference / Pseudotime
 
 -   Try these three methods
 
@@ -333,7 +335,7 @@ conclusions
 
     -   Wanderlust
 
-### Combining flow initiatives
+## Combining flow initiatives
 
 -   Sarab shah wants a flow-cyto pipeline focused meeting
 
@@ -343,7 +345,7 @@ conclusions
 
 -   Table of runtime per step per sample, explain different steps
 
-### SPADE.downsampleFCS()
+## SPADE.downsampleFCS()
 
 -   target_pctile --- Numeric value in [0,1]. Densities below this
     percentile, but above exclude_pctile will be retained. Only

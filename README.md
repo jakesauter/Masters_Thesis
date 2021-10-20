@@ -40,21 +40,23 @@ by Jake Sauter May 2020
 -   [Conclusions](#conclusions)
 -   [References](#references)
 -   [Code Repository](#code-repository)
--   [Notes on Process](#notes-on-process) - [Current Goal: Research
-    Presentation in a
-    Month](#current-goal:-research-presentation-in-a-month) - [Research
-    Angle: Normal Bone Marrow
-    Samples](#research-angle:-normal-bone-marrow-samples) - [Robustness
-    of pipeline](#robustness-of-pipeline) - [Experimental
-    Take-Aways](#experimental-take-aways) - [Notes From George’s
-    Presentation](#notes-from-george's-presentation) - [Lab Meeting /
-    Research Day](#lab-meeting-/-research-day) - [Possible
-    Pre-Processing
-    Improvements](#possible-pre-processing-improvements) - [Diffusion
-    Maps](#diffusion-maps) - [Trajectory Inference /
-    Pseudotime](#trajectory-inference-/-pseudotime) - [Combining flow
-    initiatives](#combining-flow-initiatives) -
-    [SPADE.downsampleFCS()](#spade.downsamplefcs())
+-   [Notes on Process](#notes-on-process)
+    -   [Current Goal: Research Presentation in a
+        Month](#current-goal:-research-presentation-in-a-month)
+    -   [Research Angle: Normal Bone Marrow
+        Samples](#research-angle:-normal-bone-marrow-samples)
+    -   [Robustness of pipeline](#robustness-of-pipeline)
+    -   [Experimental Take-Aways](#experimental-take-aways)
+    -   [Notes From George’s
+        Presentation](#notes-from-george's-presentation)
+        -   [Lab Meeting / Research Day](#lab-meeting-/-research-day)
+    -   [Possible Pre-Processing
+        Improvements](#possible-pre-processing-improvements)
+    -   [Diffusion Maps](#diffusion-maps)
+    -   [Trajectory Inference /
+        Pseudotime](#trajectory-inference-/-pseudotime)
+    -   [Combining flow initiatives](#combining-flow-initiatives)
+    -   [SPADE.downsampleFCS()](#spade.downsamplefcs())
 
 # Abstract
 
@@ -218,7 +220,7 @@ following github repsitory:
 
 # Notes on Process
 
-### Current Goal: Research Presentation in a Month
+## Current Goal: Research Presentation in a Month
 
 -   Research Day: Primary and secondary mentors are invited ⁃ Monday
     before thanksgiving ⁃ November 22nd
@@ -226,21 +228,21 @@ following github repsitory:
 -   Would like to have some nice visuals that I have analyzed and some
     conclusions
 
-### Research Angle: Normal Bone Marrow Samples
+## Research Angle: Normal Bone Marrow Samples
 
 -   55 Normals ⁃ Could not find top level MRN folder for 1 patient ⁃
     More than one MRN folder found for 1 patient
 
-### Robustness of pipeline
+## Robustness of pipeline
 
 -   Cell ids before down-sampling?
 
-### Experimental Take-Aways
+## Experimental Take-Aways
 
 -   SPADE diffusion maps ⁃ Behavior is not patient-specific, but method
     (SPADE) specific ⁃ Does not depend on number of neighbors
 
-### Notes From George’s Presentation
+## Notes From George’s Presentation
 
 -   MPN Diagnostic Workup ⁃ Relies on Morphology ⁃ Less than 30% blasts
     MDS vs AML
@@ -282,13 +284,13 @@ following github repsitory:
 
     -   Of course co-supervisor should attend
 
-### Possible Pre-Processing Improvements
+## Possible Pre-Processing Improvements
 
 -   How did previous papers find the optimal cofactor
 
     -   Controls?
 
-### Diffusion Maps
+## Diffusion Maps
 
 -   Can we see the eigenvalues of the diffusion components to see how
     important some are?
@@ -321,7 +323,7 @@ following github repsitory:
             + a2*x\_2 + … + an*x\_n … y\_n = a1*x\_1 + a2*x\_2 + … +
             an\*x\_n
 
-### Trajectory Inference / Pseudotime
+## Trajectory Inference / Pseudotime
 
 -   Try these three methods
 
@@ -331,7 +333,7 @@ following github repsitory:
 
     -   Wanderlust
 
-### Combining flow initiatives
+## Combining flow initiatives
 
 -   Sarab shah wants a flow-cyto pipeline focused meeting
 
@@ -341,7 +343,7 @@ following github repsitory:
 
 -   Table of runtime per step per sample, explain different steps
 
-### SPADE.downsampleFCS()
+## SPADE.downsampleFCS()
 
 -   target\_pctile — Numeric value in \[0,1\]. Densities below this
     percentile, but above exclude\_pctile will be retained. Only
