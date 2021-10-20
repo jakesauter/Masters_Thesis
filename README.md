@@ -1,3 +1,21 @@
+<!-- output:  -->
+<!--   html_document:  -->
+<!--     toc: true -->
+<!--     toc_float: true -->
+
+![Thesis Flowchart](figures/Thesis%20Flowchart.png)
+
+# A Pipeline for Pan-Myeloid Flow Cytometry Data Processing and Clustering Analysis
+
+*Presented to the Faculty of the Weill Cornell Graduate School of
+Medical Sciences Cornell Universityin Partial Fulfillment of the
+Requirements for the Degree of Master of Science in Computational
+Biology*
+
+by Jake Sauter May 2020
+
+© 2021 Jake Sauter
+
 -   [A Pipeline for Pan-Myeloid Flow Cytometry Data Processing and
     Clustering
     Analysis](#a-pipeline-for-pan-myeloid-flow-cytometry-data-processing-and-clustering-analysis)
@@ -20,41 +38,21 @@
 -   [Conclusions](#conclusions)
 -   [References](#references)
 -   [Code Repository](#code-repository)
--   [Notes on Process](#notes-on-process)
-    -   [Current Goal: Research Presentation in a
-        Month](#current-goal-research-presentation-in-a-month)
-    -   [Research Angle: Normal Bone Marrow
-        Samples](#research-angle-normal-bone-marrow-samples)
-    -   [Robustness of pipeline](#robustness-of-pipeline)
-    -   [Experimental Take-Aways](#experimental-take-aways)
-    -   [Notes From George’s
-        Presentation](#notes-from-georges-presentation)
-    -   [Lab Meeting / Research Day](#lab-meeting-research-day)
-    -   [Possible Pre-Processing
-        Improvements](#possible-pre-processing-improvements)
-    -   [Diffusion Maps](#diffusion-maps)
-    -   [Trajectory Inference /
-        Pseudotime](#trajectory-inference-pseudotime)
-    -   [Combining flow initiatives](#combining-flow-initiatives)
-    -   [SPADE.downsampleFCS()](#spade.downsamplefcs)
-
-<!-- output:  -->
-<!--   html_document:  -->
-<!--     toc: true -->
-<!--     toc_float: true -->
-
-![Thesis Flowchart](figures/Thesis%20Flowchart.png)
-
-# A Pipeline for Pan-Myeloid Flow Cytometry Data Processing and Clustering Analysis
-
-*Presented to the Faculty of the Weill Cornell Graduate School of
-Medical Sciences Cornell Universityin Partial Fulfillment of the
-Requirements for the Degree of Master of Science in Computational
-Biology*
-
-by Jake Sauter May 2020
-
-© 2021 Jake Sauter
+-   [Notes on Process](#notes-on-process) - [Current Goal: Research
+    Presentation in a
+    Month](#current-goal:-research-presentation-in-a-month) - [Research
+    Angle: Normal Bone Marrow
+    Samples](#research-angle:-normal-bone-marrow-samples) - [Robustness
+    of pipeline](#robustness-of-pipeline) - [Experimental
+    Take-Aways](#experimental-take-aways) - [Notes From George’s
+    Presentation](#notes-from-george's-presentation) - [Lab Meeting /
+    Research Day](#lab-meeting-/-research-day) - [Possible
+    Pre-Processing
+    Improvements](#possible-pre-processing-improvements) - [Diffusion
+    Maps](#diffusion-maps) - [Trajectory Inference /
+    Pseudotime](#trajectory-inference-/-pseudotime) - [Combining flow
+    initiatives](#combining-flow-initiatives) -
+    [SPADE.downsampleFCS()](#spade.downsamplefcs())
 
 # Abstract
 
@@ -303,7 +301,7 @@ following github repsitory: github.com/jakesauter
     the new space approximates the diffusion distance, where the
     diffusion distance is the sum of the (non-normalized?) probabilites
     (density?) of the start and end points being strongly connected
-    through every other point for which a path exists (p \> 0)
+    through every other point for which a path exists (p &gt; 0)
 
     -   Define a kernel K and calculate the kernel matrix (distances /
         non-normalized probs)
@@ -316,8 +314,9 @@ following github repsitory: github.com/jakesauter
         dominant eigenvectors indicated by the magnitude of their
         eigenvalue
 
-        -   Ex. y_1 = a1*x_1 + a12*x_2 + … + a1n*x_n y_2 = a1*x_1 +
-            a2*x_2 + … + an*x_n … y_n = a1*x_1 + a2*x_2 + … + an\*x_n
+        -   Ex. y\_1 = a1*x\_1 + a12*x\_2 + … + a1n*x\_n y\_2 = a1*x\_1
+            + a2*x\_2 + … + an*x\_n … y\_n = a1*x\_1 + a2*x\_2 + … +
+            an\*x\_n
 
 ### Trajectory Inference / Pseudotime
 
@@ -341,11 +340,11 @@ following github repsitory: github.com/jakesauter
 
 ### SPADE.downsampleFCS()
 
--   target_pctile — Numeric value in \[0,1\]. Densities below this
-    percentile, but above exclude_pctile will be retained. Only
-    meaningful if desired_samples is NULL.
+-   target\_pctile — Numeric value in \[0,1\]. Densities below this
+    percentile, but above exclude\_pctile will be retained. Only
+    meaningful if desired\_samples is NULL.
 
--   desired_samples — Desired number of samples. If set to integer
+-   desired\_samples — Desired number of samples. If set to integer
     value, the target percentile will be set internally to downsample to
     approximately the desired number of samples.
 
