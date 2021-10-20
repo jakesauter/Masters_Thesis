@@ -41,8 +41,8 @@ by Jake Sauter May 2020
 -   [References](#references)
 -   [Code Repository](#code-repository)
 -   [Notes on Process](#notes-on-process)
-    -   [Current Goal: Research Presentation in a
-        Month](#current-goal:-research-presentation-in-a-month)
+    -   [Research Presentation in a
+        Month](#research-presentation-in-a-month)
     -   [Research Angle: Normal Bone Marrow
         Samples](#research-angle:-normal-bone-marrow-samples)
     -   [Robustness of pipeline](#robustness-of-pipeline)
@@ -220,7 +220,7 @@ following github repsitory:
 
 # Notes on Process
 
-## Current Goal: Research Presentation in a Month
+## Research Presentation in a Month
 
 -   Research Day: Primary and secondary mentors are invited ⁃ Monday
     before thanksgiving ⁃ November 22nd
