@@ -1,20 +1,16 @@
 ---
-title: "A Pipeline for Pan-Myeloid Flow Cytometry Data Processing and Clustering Analysis"
+  title: "A Pipeline for Pan-Myeloid Flow Cytometry Data Processing and Clustering Analysis"
 author: "Jake Sauter"
 date: "10/20/2021"
 output: 
-  md_document:
-    variant: markdown_github
+  html_document: 
+  toc: true
+toc_float: true
 editor_options: 
   markdown: 
-    wrap: 72
+  wrap: 72
 ---
-
-<!-- output:  -->
-<!--   html_document:  -->
-<!--     toc: true -->
-<!--     toc_float: true -->
-
+  
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -23,8 +19,8 @@ knitr::opts_chunk$set(echo = TRUE)
 Medical Sciences Cornell Universityin Partial Fulfillment of the
 Requirements for the Degree of Master of Science in Computational
 Biology*
-
-by Jake Sauter May 2020
+  
+  by Jake Sauter May 2020
 
 © 2021 Jake Sauter
 
@@ -230,22 +226,22 @@ following github repsitory: github.com/jakesauter
 ### Notes From George's Presentation
 
 -   MPN Diagnostic Workup ⁃ Relies on Morphology ⁃ Less than 30% blasts
-    MDS vs AML
+MDS vs AML
 
 -   Flow cytometry is a useful method of measurement as it can capture
-    multi-dimensional signals at a single-cell level ⁃ What is FSC, SSC
-    ⁃ Conjugated antiobdies for markers of interest ⁃ M1 and M2 tube
+multi-dimensional signals at a single-cell level ⁃ What is FSC, SSC
+⁃ Conjugated antiobdies for markers of interest ⁃ M1 and M2 tube
 
 -   Processing Pipeline ⁃ Step by step going through ⁃ Keeping table of
-    content on the side and highlighting ⁃ Reference in small text at
-    bottom of slide
+content on the side and highlighting ⁃ Reference in small text at
+bottom of slide
 
 -   Normalization ⁃ Gaussnorm not really working ⁃ Split into batches to
-    only shift batch-wise and not sample-wise ⁃ Will determine shifts
-    based off of "normal" samples
+only shift batch-wise and not sample-wise ⁃ Will determine shifts
+based off of "normal" samples
 
 -   Downsampling ⁃ One option is uniform random sampling ⁃ SPADE
-    density-based downsampling ⁃ Don't over-sample cells in dense
+density-based downsampling ⁃ Don't over-sample cells in dense
     regions
 
 -   Data Mining ⁃ Self Organizing Maps ⁃ Leiden Community Detection ⁃
