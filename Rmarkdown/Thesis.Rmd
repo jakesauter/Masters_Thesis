@@ -228,7 +228,7 @@ Monday before thanksgiving ⁃ November 22nd
 -   Would like to have some nice visuals that I have analyzed and some
 conclusions
 
-## Research Angle: Normal Bone Marrow Samples
+## Normal Bone Marrow Samples
 
 -   55 Normals ⁃ Could not find top level MRN folder for 1 patient ⁃
     More than one MRN folder found for 1 patient

@@ -43,8 +43,7 @@ by Jake Sauter May 2020
 -   [Notes on Process](#notes-on-process)
     -   [Research Presentation in a
         Month](#research-presentation-in-a-month)
-    -   [Research Angle: Normal Bone Marrow
-        Samples](#research-angle:-normal-bone-marrow-samples)
+    -   [Normal Bone Marrow Samples](#normal-bone-marrow-samples)
     -   [Robustness of pipeline](#robustness-of-pipeline)
     -   [Experimental Take-Aways](#experimental-take-aways)
     -   [Notes From George’s
@@ -228,7 +227,7 @@ following github repsitory:
 -   Would like to have some nice visuals that I have analyzed and some
     conclusions
 
-## Research Angle: Normal Bone Marrow Samples
+## Normal Bone Marrow Samples
 
 -   55 Normals ⁃ Could not find top level MRN folder for 1 patient ⁃
     More than one MRN folder found for 1 patient
