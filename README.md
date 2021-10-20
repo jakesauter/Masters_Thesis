@@ -213,7 +213,8 @@ and reproducible.
 # Code Repository
 
 Code and documentation associated with this paper can be found at the
-following github repsitory: github.com/jakesauter
+following github repsitory:
+<https://github.com/jakesauter/Masters_Thesis>
 
 # Notes on Process
 
