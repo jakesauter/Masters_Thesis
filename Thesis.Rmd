@@ -20,6 +20,10 @@ editor_options:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# A Pipeline for Pan-Myeloid Flow Cytometry Data Processing and Clustering Analysis
+
+![Thesis Flowchart](figures/Thesis Flowchart.png)
+
 *Presented to the Faculty of the Weill Cornell Graduate School of
 Medical Sciences Cornell Universityin Partial Fulfillment of the
 Requirements for the Degree of Master of Science in Computational
