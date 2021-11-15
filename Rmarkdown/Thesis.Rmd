@@ -31,6 +31,9 @@ by Jake Sauter May 2020
 # Table of Contents
 
 ```{r toc, echo=FALSE}
+devtools::source_gist("c83e078bf8c81b035e32c3fc0cf04ee8", 
+                      filename = 'render_toc.R')
+
 render_toc("Thesis.Rmd")
 ```
 
